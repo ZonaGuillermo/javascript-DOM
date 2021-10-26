@@ -38,11 +38,46 @@ section{
 section div{
 	width: 80%;
 	margin: 0 auto;
+	padding: 1rem 0 3rem;
 	
+}
+
+section div h1 {
+	margin: 0.5rem 0 1rem;
 }
 
 section div img{
 	width: 100%;
 	height: 30vw;
 	object-fit: cover;
+}
+
+
+
+/*** MARGIN CHANGE ***/
+.margins50 {
+	margin: 50px 0;
+}
+
+
+
+/*** DARK MODE ***/
+body {
+	transition: all 0.5s ease;
+}
+
+.dark header {
+	background-color: rgb(56, 103, 156);
+	color: #ddd;
+}
+
+.dark header button {
+	border: 2px solid #ddd;
+	background-color: #ddd2;
+	color: #ddd;
+}
+
+.dark section {
+	background-color: #222;
+	color: #ddd;
 }

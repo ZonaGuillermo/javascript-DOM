@@ -63,19 +63,6 @@ image.addEventListener('click', (event) => {
 	}
  });
 
-//	const toggleImage = (event) => {
-// 	const src1 = 'https://loremflickr.com/400/200/flowers?lock=2';
-// 	const src2 = 'https://loremflickr.com/400/200/flowers?lock=4';
-
-// 	if (event.target.src === src1) {
-// 		image.setAttribute('src', src2);
-// 	} else {
-// 		image.setAttribute('src', src1);
-// 	}
-// }
-
-// image.addEventListener('click', (event) => { toggleImage(event) });
-
 
 
 

@@ -1,29 +1,31 @@
+
+// **** MARGENES ************************************************
 const margins = document.querySelector('.margins');
 
-/*
-const addMargins = () => {
-	margins.style.margin = '50px 0';
-}
+margins.addEventListener('click', () => {
+	margins.classList.toggle('margins50');
+});
 
-const quitMargins = () => {
-	margins.style.margin = '0';
-	// console.log('estoy fuera');
-}
 
-margins.addEventListener('mouseover', addMargins);
+// const addMargins = () => {
+// 	margins.style.margin = '50px 0';
+// }
 
-margins.addEventListener('mouseout', quitMargins);
-*/
+// const quitMargins = () => {
+// 	margins.style.margin = '0';
+// }
 
-const addQuitMargins = (event) => {
-	margins.style.margin = '50px 0';
-	console.log(event);
-	// if (event.isTrusted === true){
-	// 	margins.style.margin = '50px 0';
-	// } else {
-	// 	margins.style.margin = '0';
-	// }
+// margins.addEventListener('mouseover', addMargins);
+// margins.addEventListener('mouseout', quitMargins);
 
-}
 
-margins.addEventListener( 'toogle', (event) => { addQuitMargins(event) })
+
+
+
+
+// **** DARK MODE **************************************************
+const btnDarkMode = document.querySelector('.dark-mode');
+
+btnDarkMode.addEventListener('click', () => {
+	document.body.classList.toggle('dark');
+});
